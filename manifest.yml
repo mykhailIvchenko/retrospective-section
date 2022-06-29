@@ -1,0 +1,15 @@
+modules:
+  macro:
+    - key: retrospective-section-hello-world
+      function: main
+      title: retrospective-section
+      description: Inserts Hello world!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/3771758b-42e0-40bd-a382-8877d786f40e
+
+permissions:
+  scopes:
+    - "storage:app"
